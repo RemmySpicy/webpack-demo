@@ -1,3 +1,5 @@
+import myName from "./myName";
+
 import _ from "lodash";
 
 function component() {
