@@ -19,4 +19,6 @@ function component() {
   return element;
 }
 
+console.log(myName('Remilekun'));
+
 document.body.appendChild(component());
