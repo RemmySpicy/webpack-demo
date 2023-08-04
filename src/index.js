@@ -2,6 +2,8 @@ import _ from "lodash";
 import printMe from "./print";
 import './style.css';
 import image from "./image.jpg";
+import Books from "./data.xml";
+import Notes from "./data.csv";
 
 function component() {
   const element = document.createElement("div");
@@ -19,6 +21,9 @@ function component() {
 
   element.appendChild(btn);
   element.appendChild(myImage);
+
+  console.log(Books);
+  console.log(Notes);
 
   return element;
 }
